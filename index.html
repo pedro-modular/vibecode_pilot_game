@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilotwings MVP</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+        }
+        #hud {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div id="hud">
+        <div>Speed: <span id="speed">0</span> km/h</div>
+        <div>Score: <span id="score">0</span></div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
